@@ -1,0 +1,5 @@
+{
+    "require": {
+        "jsondbphp/jsondb": "^1.0"
+    }
+}

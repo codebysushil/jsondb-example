@@ -1,0 +1,99 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "62b043b35d6460a124169b4210287827",
+    "packages": [
+        {
+            "name": "jsondbphp/jsondb",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CodeWithSushil/json-db.git",
+                "reference": "92e273e54aeeaa16d2a8d83f6a8fa0634711388f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CodeWithSushil/json-db/zipball/92e273e54aeeaa16d2a8d83f6a8fa0634711388f",
+                "reference": "92e273e54aeeaa16d2a8d83f6a8fa0634711388f",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": "^8.2"
+            },
+            "require-dev": {
+                "laravel/pint": "^1.22",
+                "phpstan/phpstan": "^2.1",
+                "phpunit/phpunit": "^12.2",
+                "symfony/var-dumper": "^7.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Json\\Database\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sushil Kumar",
+                    "email": "sushilkumbhar77@gmail.com"
+                }
+            ],
+            "description": "JsonDB: Lightweight Document Container for Modern PHP Apps.",
+            "keywords": [
+                "database",
+                "json database",
+                "jsondb",
+                "jsondbphp"
+            ],
+            "support": {
+                "issues": "https://github.com/CodeWithSushil/json-db/issues",
+                "source": "https://github.com/CodeWithSushil/json-db/tree/v1.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://www.buymeacoffee.com/codewithsushil",
+                    "type": "buy_me_a_coffee"
+                },
+                {
+                    "url": "https://paypal.me/codewithsushil",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/ashishkumbhar01",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/codewithsushil",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/codewithsushil",
+                    "type": "open_collective"
+                },
+                {
+                    "url": "https://www.patreon.com/code_with_sushil",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2025-06-28T08:32:21+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}
